@@ -1,0 +1,245 @@
+header a {
+    text-decoration: none;
+}
+
+header p {
+    max-width: 150px;
+    border: 3px solid rgb(blue);
+    background-color: aliceblue;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header p:hover {
+    font-size: 150%;
+}
+
+
+.matrialegrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.voksenbamsergrid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    height: 5px;
+    gap: 25px;
+    text-align: center;
+}
+
+/* .gallerigrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+} */
+div a {
+    text-align: center;
+    display: grid;
+    text-decoration: none;
+}
+
+li div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    position: relative;
+}
+
+.imgposgrid {
+    position: absolute;
+    left: 700px;
+    top: 530px;
+    max-width: 450px;
+}
+
+.imgposgrid1 {
+    position: absolute;
+    left: 900px;
+    top: 450px;
+    max-width: 450px;
+}
+
+.imgposgrid2 {
+    position: absolute;
+    left: 650px;
+    top: 90px;
+    max-width: 150px;
+}
+
+.imgposgrid3 {
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
+
+.imgposgrid4 {
+    position: absolute;
+    left: 1100px;
+    top: 250px;
+}
+
+.imgposgrid5 {
+    position: absolute;
+    left: 500px;
+    top: 350px;
+}
+
+.pbg {
+    position: relative;
+    padding: 30px;
+    margin: auto;
+    background-color: rgba(238, 90, 154, 0.37);
+    border-radius: 100px;
+}
+
+.boksgrid1 {
+    grid-column: 3/5;
+    grid-row: 1;
+}
+
+.boksgrid2 {
+    grid-column: 7/9;
+    grid-row: 1;
+}
+
+.boksgrid3 {
+    grid-column: 4/7;
+    grid-row: 2;
+}
+
+.boksgrid4 {
+    grid-column: 3/6;
+    grid-row: 3;
+}
+
+.bokspos1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.bokspos2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.bokspos3 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.cloudpos1 {
+    max-width: 300px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.cloudpos2 {
+    grid-column: 3;
+    grid-row: 2;
+    max-width: 300px;
+}
+
+.cloudpos3 {
+    grid-column: 1;
+    grid-row: 3;
+    max-width: 300px;
+}
+
+.pos1 {
+    position: absolute;
+    left: 330px;
+    top: 270px;
+}
+
+.pos2 {
+    position: absolute;
+    left: 780px;
+    top: 270px;
+}
+
+.pos3 {
+    position: absolute;
+    left: 600px;
+    top: 40px;
+}
+
+.pos4 {
+    position: absolute;
+    left: 380px;
+    top: 480px;
+}
+
+.pos5 {
+    position: absolute;
+    left: 750px;
+    top: 480px;
+}
+
+.pettal1size {
+    width: 370px;
+    height: 240px;
+}
+
+.pettal2size {
+    width: 370px;
+    height: 240px;
+}
+
+.pettal3size {
+    width: 250px;
+    height: 370px;
+}
+
+.pettal4size {
+    width: 370px;
+    height: 240px;
+}
+
+.pettal5size {
+    width: 370px;
+    height: 240px;
+}
+
+.pettal1 {
+    background-image: url(../img/pettalmenue.png);
+    block-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pettal2 {
+    background-image: url(../img/pettalmenue2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pettal3 {
+    background-image: url(../img/pettalmenue3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pettal4 {
+    background-image: url(../img/pettalmenue4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pettal5 {
+    background-image: url(../img/pettalmenue5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

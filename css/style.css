@@ -1,0 +1,280 @@
+body {
+    cursor: url(../img/cursor.png) 2 2, auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Itim", Verdana, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 0px;
+    background-color: rgba(238, 90, 154, 0.37);
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0;
+}
+
+.footer_social-link {
+    padding: 1px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.footer_social-link:hover {
+    background-color: rgba(237, 184, 207, 0.472)
+}
+
+.footer_social-img {
+    width: 100%;
+    display: block;
+}
+
+.footer_social-link-body {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.footer_copy {
+    padding: 5.3px;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Itim", Verdana, Tahoma, sans-serif;
+}
+
+.indexbody {
+    background-image: url(../img/startside2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 770px;
+    background-size: auto;
+}
+
+.matrialerbag {
+    background-image: url(../img/startside3.jpg);
+    height: 800px;
+    background-size: cover;
+}
+
+p {
+    color: rgb(28, 28, 28);
+    font-family: "Itim", Verdana, Tahoma, sans-serif;
+}
+
+div {
+    font-size: larger;
+    font-family: "Modak", Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+div a {
+    background-color: rgba(238, 90, 154, 0.471);
+    color: rgb(20, 20, 20);
+    padding: 30px;
+    border-radius: 25px;
+    border: 3px solid rgba(238, 90, 154, 0.29);
+    block-size: 10%;
+    font-size: 100%;
+}
+
+a:link {
+    color: rgb(208, 122, 122);
+}
+
+a:active {
+    color: rgba(238, 90, 154, 0.471);
+}
+
+a:visited {
+    color: rgb(208, 122, 122);
+}
+
+li {
+    list-style: none;
+    width: 200px;
+    height: 130px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.pettal1size:hover {
+    translate: -70px;
+}
+
+.pettal2size:hover {
+    translate: 70px;
+}
+
+.pettal5size:hover {
+    translate: 70px;
+}
+
+.pettal3size:hover {
+    translate: 0 -70px;
+}
+
+.pettal4size:hover {
+    translate: -80px;
+}
+
+span:hover+p {
+    border: 3px solid rgba(238, 90, 154, 0.29);
+    border-radius: 20px;
+    max-width: 250px;
+    display: block;
+}
+
+.imgindex {
+    position: absolute;
+    top: 350px;
+    left: 625px;
+    max-width: 250px;
+}
+
+.imgpos1 {
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    max-width: 200px;
+}
+
+.imgpos2 {
+    position: absolute;
+    left: 900px;
+    top: 450px;
+    max-width: 450px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.infoboks {
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px;
+    max-width: 550px;
+    background-color: rgba(240, 248, 255, 0.342);
+}
+
+.infoboks2 {
+    position: relative;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px;
+    max-width: 550px;
+    background-color: rgba(240, 248, 255, 0.231);
+}
+
+.infoboks3 {
+    position: relative;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px;
+    max-width: 550px;
+    background-color: rgba(240, 248, 255, 0.163);
+}
+
+.hidboks {
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    display: none;
+}
+
+.boks {
+    border: 5px solid rgba(255, 255, 255, 0.531);
+    border-radius: 70px;
+    margin: 20px;
+}
+
+.boks p {
+    visibility: hidden;
+}
+
+.boksbamse {
+    border: 5px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.boksbamse img {
+    visibility: hidden;
+    max-width: 300px;
+    border-radius: 150px;
+}
+
+.boksbamse1 {
+    border: 5px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(240, 248, 255, 0.293);
+}
+
+.boksbamse1 img {
+    visibility: hidden;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.boksbamse1:hover img {
+    visibility: visible;
+}
+
+.boksbamse:hover img {
+    visibility: visible;
+}
+
+.boks:hover p {
+    visibility: visible;
+}
+
+@font-face {
+    font-family: "RubikPuddles";
+    src: url(../fonts/RubikPuddles-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Itim";
+    src: url(../fonts/Itim-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Modak";
+    src: url(../fonts/Modak-Regular.ttf);
+}
